@@ -1,1 +1,1 @@
-### JavaScript内置对象及方法
+### JavaScript内置对象及常用方法总结
