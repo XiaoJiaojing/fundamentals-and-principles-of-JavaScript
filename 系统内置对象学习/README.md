@@ -1,1 +1,1 @@
-### JavaScript内置对象学习
+### JavaScript内置对象及方法

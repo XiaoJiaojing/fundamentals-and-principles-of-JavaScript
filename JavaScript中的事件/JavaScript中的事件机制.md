@@ -56,13 +56,15 @@ function removeEventListener(element, type, fn) {
 
 ### 事件的三个阶段
 
-1. 捕获阶段
+1. 捕获阶段 (true)
 
 2. 当前目标阶段
 
-3. 冒泡阶段
+3. 冒泡阶段 (false)
 
    事件对象.eventPhase属性可以查看事件触发时所处的阶段
+   addEventListener(type,fn,'控制事件阶段')
+   控制事件阶段处：写的是 true 或 false ，true 表示冒泡阶段， false 表示 捕获阶段
    
 ### 事件对象的属性和方法
 
